@@ -21,7 +21,11 @@ public class App
         //We may use both ApplicationContext or BeanFactory to get beans. ApplicationContext - preferred for enterprise level apps
         ApplicationContext context = new ClassPathXmlApplicationContext("file:C:\\SpringPractice\\MavenOne\\demo\\src\\spring.xml");
 
-        Vehicle obj = (Vehicle) context.getBean("vehicle");
+        Car obj = (Car) context.getBean("car");
         obj.drive();
+
+//        Tyre tyre = (Tyre) context.getBean("tyre");
+//        //tyre.setBrand("Pirelli");
+//        System.out.println(tyre);
     }
 }

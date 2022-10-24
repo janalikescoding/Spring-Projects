@@ -3,11 +3,20 @@
 
 <!-- Beans definitions are important to specify definition(for Spring). Can be found in Spring website. -->
 <beans  xmlns="http://www.springframework.org/schema/beans"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
         xsi:schemaLocation="http://www.springframework.org/schema/beans
-  http://www.springframework.org/schema/beans/spring-beans.xsd
-  http://www.springframework.org/schema/context/
-  http://www.springframework.org/schema/context/spring-context.xsd">
-    <bean id="vehicle" class="org.jana.Bike"></bean>
+  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+<!--    <bean id="vehicle" class="org.jana.Bike"></bean>-->
+
+    <context:component-scan base-package="org.jana"></context:component-scan>
+
+    <bean id="tyre" class="org.jana.Tyre">
+<!--        <property name="brand" value="Yokahama Tyres"></property>-->
+<!--        <constructor-arg value="Yokohama Tyres"></constructor-arg>-->
+<!--        <constructor-arg value="1967"></constructor-arg>-->
+    </bean>
 
 </beans>
