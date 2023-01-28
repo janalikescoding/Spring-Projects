@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87dc6bec-927c-476f-9fe9-3f283c9c60ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jana/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jana/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jana/SubClassTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2GxkxWU3Y1X5izAw0V8zf820C70" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SpringPractice/JMockit/Calculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.CalculatorTest (1)">
+    <configuration name="CalculatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jana.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jana" />
+      <option name="MAIN_CLASS_NAME" value="com.jana.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit">
+      <module name="Calculator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../dev/Softwares/jdk-11.0.14.1+1" />
+      <option name="PACKAGE_NAME" value="com.jana" />
+      <option name="MAIN_CLASS_NAME" value="com.jana.CalculatorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubClassTest" type="JUnit" factoryName="JUnit">
+      <module name="Calculator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../dev/Softwares/jdk-11.0.14.1+1" />
+      <option name="PACKAGE_NAME" value="com.jana" />
+      <option name="MAIN_CLASS_NAME" value="com.jana.SubClassTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:&quot;C:\Users\sivaraj\.m2\repository\org\jmockit\jmockit\1.43\jmockit-1.43.jar&quot; -Xmx512m -Dappengine.fullscan.seconds=5 -Ddatastore.default_high_rep_job_policy_unapplied_job_pct=50" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.SubClassTest" />
+      <item itemvalue="JUnit.CalculatorTest (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87dc6bec-927c-476f-9fe9-3f283c9c60ef" name="Changes" comment="" />
+      <created>1667337872127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667337872127</updated>
+      <workItem from="1667337874642" duration="61000" />
+      <workItem from="1667405860803" duration="274000" />
+      <workItem from="1667433754658" duration="1555000" />
+      <workItem from="1667483524067" duration="247000" />
+      <workItem from="1667505363677" duration="1824000" />
+      <workItem from="1667507201578" duration="11000" />
+      <workItem from="1667507289452" duration="771000" />
+      <workItem from="1667580015221" duration="6000" />
+      <workItem from="1667596914476" duration="3056000" />
+      <workItem from="1667871874661" duration="607000" />
+      <workItem from="1667950402545" duration="1381000" />
+      <workItem from="1668004839695" duration="4000" />
+      <workItem from="1668044204490" duration="1267000" />
+      <workItem from="1668045486579" duration="5000" />
+      <workItem from="1668090322564" duration="14000" />
+      <workItem from="1668094846449" duration="13000" />
+      <workItem from="1668115014238" duration="1485000" />
+      <workItem from="1668191263313" duration="16000" />
+      <workItem from="1668203473352" duration="2865000" />
+      <workItem from="1668544163763" duration="817000" />
+      <workItem from="1669313141124" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
