@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.springtestnoalternativeavailable.BaseballGameTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-09-11T22:17:04" hostname="NAL10-F2Z5L33" time="1.308">
+  <properties/>
+  <testcase name="testPlayGame()" classname="com.example.springtestnoalternativeavailable.BaseballGameTest" time="1.223"/>
+  <testcase name="testGetandSetHomeTeam()" classname="com.example.springtestnoalternativeavailable.BaseballGameTest" time="0.083"/>
+  <system-out><![CDATA[Play national anthem.
+Play national anthem.
+]]></system-out>
+  <system-err><![CDATA[Sep 11, 2023 6:17:05 PM com.example.springtestnoalternativeavailable.aspects.LoggingAspect checkForRain
+INFO: Chicago Cubs
+]]></system-err>
+</testsuite>

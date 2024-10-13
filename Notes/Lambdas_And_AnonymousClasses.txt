@@ -1,0 +1,57 @@
+Om Muruga
+
+INTERFACES
+	- Any class implementing an interface HAS to implement the methods
+
+
+LAMBDA FUNCTIONS
+
+	Normal class: Implement class, implement method, create object, call the implemented method
+	Lambda: Skip the above steps and provide the implementation directly. Instead of sending/using an object with the function, send the function itself directly.
+	- No need of curly braces if the lambda implementation is one liner
+	- Lambda functions can be considered as an object and be passed around as such
+		Printable lambdaPrintable = System.out.println("Meow");
+		printThing(lambdaPrintable);
+	- If the interface takes parameters, pass in the same parameters
+		(s) -> System.out.println("Meow " + s);
+		- Here (s) can be written without brackets because there is only one parameter. If there is none or more than one, brackets are required.
+		- No need to explicitly declare the data type of "s", it is automatically deduced based on the iterface
+	- If the interface method returns something, needs to be handled.
+		- If the implementation is just returning, then the parantheses can be skipped along with the "return" keyword.
+		Printable lambdaPrintable = s -> "Meow " + s;
+	- If an interface has exactly one abstract method, then it is called a functional interface.
+		- Adding the @FunctionalInterface annotation is not mandatory, but enforces the one abstract method rule.
+		- Also known as "SAM" interfaces - Single Abstract Method
+		- It can contain other methods like static method and default methods, but can contain ONLY ONE abstract method.
+		- LAMBDAS CAN BE USED ONLY ON FUNCTIONAL(SAM) INTERFACES. BECAUSE LAMBDA ALLOWS IMPLEMTATION OF ONLY ONE METHOD.
+		- If more than one abstract methods exist, then we can make use of anonymous class instead.
+
+ANONYMOUS INNER CLASSES
+
+	- Class with no name and exactly one instance(object)
+	- They can extend any class
+		Animal bigfoot = new Animal() {
+			@Override
+			public void makeNoise() { //Override the makeNoise() method in Animal class
+				System.out.println("Roar");
+			}
+		};
+		bigfoot.makeNoise(); //Call method.
+	- They can implement an interface
+		Runnable myAnonymousRunnable = new Runnable() {
+			@Override
+			public void run() {
+				System.out.println("I am an anonymous runnable.")l
+			}
+		};
+		myAnonymousRunnable.run();
+	- They can have implementations for more than one methods
+			
+	
+
+
+
+
+
+
+
