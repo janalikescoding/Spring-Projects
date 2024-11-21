@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.uploadingfilesapplication.FileUploadTests" tests="3" skipped="0" failures="2" errors="0" timestamp="2024-11-03T06:03:49" hostname="NAL10-F2Z5L33" time="2.093">
+  <properties/>
+  <testcase name="shouldSaveUploadedFile()" classname="com.example.uploadingfilesapplication.FileUploadTests" time="0.435"/>
+  <testcase name="should404WhenMissingFile()" classname="com.example.uploadingfilesapplication.FileUploadTests" time="0.119">
+    <failure message="java.lang.AssertionError: Status expected:&lt;404&gt; but was:&lt;500&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Status expected:&lt;404&gt; but was:&lt;500&gt;
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:637)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.example.uploadingfilesapplication.FileUploadTests.should404WhenMissingFile(FileUploadTests.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="shouldListAllFiles()" classname="com.example.uploadingfilesapplication.FileUploadTests" time="1.533">
+    <failure message="java.lang.AssertionError: Model attribute 'files'&#13;&#10;Expected: iterable containing [&quot;http://localhost/files/first.txt&quot;, &quot;http://localhost/files/second.txt&quot;]&#13;&#10;     but: item 0: was &quot;http://localhost/files/%7Bfilename:.+%7D&quot;" type="java.lang.AssertionError">java.lang.AssertionError: Model attribute 'files'
+Expected: iterable containing [&quot;http://localhost/files/first.txt&quot;, &quot;http://localhost/files/second.txt&quot;]
+     but: item 0: was &quot;http://localhost/files/%7Bfilename:.+%7D&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.web.servlet.result.ModelResultMatchers.lambda$attribute$0(ModelResultMatchers.java:64)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.example.uploadingfilesapplication.FileUploadTests.shouldListAllFiles(FileUploadTests.java:42)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[01:03:39.198 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.uploadingfilesapplication.FileUploadTests]: FileUploadTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:03:39.502 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.uploadingfilesapplication.UploadingFilesApplication for test class com.example.uploadingfilesapplication.FileUploadTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-11-03T01:03:40.757-05:00  INFO 22508 --- [UploadingFilesApplication] [    Test worker] c.e.u.FileUploadTests                    : Starting FileUploadTests using Java 17.0.6 with PID 22508 (started by sivaraj in C:\SpringPractice\UploadingFilesApplication)
+2024-11-03T01:03:40.760-05:00  INFO 22508 --- [UploadingFilesApplication] [    Test worker] c.e.u.FileUploadTests                    : No active profile set, falling back to 1 default profile: "default"
+2024-11-03T01:03:48.938-05:00  INFO 22508 --- [UploadingFilesApplication] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-11-03T01:03:48.939-05:00  INFO 22508 --- [UploadingFilesApplication] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-11-03T01:03:48.945-05:00  INFO 22508 --- [UploadingFilesApplication] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-11-03T01:03:49.021-05:00  INFO 22508 --- [UploadingFilesApplication] [    Test worker] c.e.u.FileUploadTests                    : Started FileUploadTests in 8.975 seconds (process running for 18.829)
+2024-11-03T01:03:49.676-05:00  WARN 22508 --- [UploadingFilesApplication] [    Test worker] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'fileName' for method parameter type String is not present]
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /files/test.txt
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.uploadingfilesapplication.controller.FileUploadController
+           Method = com.example.uploadingfilesapplication.controller.FileUploadController#serveFile(String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MissingPathVariableException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 500
+    Error message = Required path variable 'fileName' is not present.
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.example.uploadingfilesapplication.controller.FileUploadController
+           Method = com.example.uploadingfilesapplication.controller.FileUploadController#listUploadedFiles(Model)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = uploadForm
+             View = null
+        Attribute = files
+            value = [http://localhost/files/%7Bfilename:.+%7D, http://localhost/files/%7Bfilename:.+%7D]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Language:"en", Content-Type:"text/html;charset=UTF-8"]
+     Content type = text/html;charset=UTF-8
+             Body = <html>
+<body>
+
+
+
+<div>
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <table>
+            <tr><td>File to upload:</td><td><input type="file" name="file" /></td></tr>
+            <tr><td></td><td><input type="submit" value="Upload" /></td></tr>
+        </table>
+    </form>
+</div>
+
+<div>
+    <ul>
+        <li>
+            <a href="http://localhost/files/%7Bfilename:.+%7D" >http://localhost/files/%7Bfilename:.+%7D</a>
+        </li>
+        <li>
+            <a href="http://localhost/files/%7Bfilename:.+%7D" >http://localhost/files/%7Bfilename:.+%7D</a>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
+
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
