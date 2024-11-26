@@ -48,9 +48,9 @@ public class StudentService {
 
   public List<Course> retrieveCourses(String studentId){
     Student student = retrieveStudent(studentId);
-    if (studentId.equalsIgnoreCase("Student1")) {
-      throw new RuntimeException("Something went wrong");
-    }
+//    if (studentId.equalsIgnoreCase("Student1")) {
+//      throw new RuntimeException("Something went wrong");
+//    }
     if(student == null)
       return new ArrayList<>();
     return student.courses();
