@@ -27,7 +27,7 @@ import static org.junit.Assert.assertEquals;
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(value = StudentController.class)
 @WithMockUser
-public class StudentControllerTest {
+public class StudentControllerTest { // This tests just the controller by mocking a MVC
 
   @Autowired
   MockMvc mockMvc;

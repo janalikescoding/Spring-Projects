@@ -21,7 +21,7 @@ import static org.junit.Assert.assertTrue;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(classes = RestSoapApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class StudentControllerIT {
+public class StudentControllerIT { //This tests the entire application by creating a test restTemplate for the REST operation.
 
   @LocalServerPort
   private int port;
