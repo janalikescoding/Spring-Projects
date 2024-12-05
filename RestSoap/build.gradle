@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-security'//just adding this dependency sets up a basic un//pw authentication. They can be customized later using the SecurityConfig configuration.
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.security:spring-security-test'
