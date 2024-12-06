@@ -18,8 +18,8 @@ public class SecurityConfig {
 
   /*
    * Allow all request to /students/**
-   * @param http
-   * @return
+   * @param HttpSecurity
+   * @return SecurityFilterChain
    * @throws Exception
    */
   @Bean
@@ -33,8 +33,8 @@ public class SecurityConfig {
 
   /**
    * Sets the default authentication provider to UserDetailsService
-   * @param userDetailsService
-   * @return
+   * @param UserDetailsService
+   * @return AuthenticationManager
    */
 
   @Bean
@@ -47,7 +47,7 @@ public class SecurityConfig {
 
   /**
    * Initialize UserDetailsService Spring bean with some credentials
-   * @return
+   * @return UserDetailsService
    */
   @Bean
   public UserDetailsService userDetailsService(){
