@@ -30,9 +30,9 @@ public class SbEnvConfigApplication {
     public static void main(String[] args) {
         ApplicationContext applicationContext = SpringApplication.run(SbEnvConfigApplication.class, args);
 
-        for (String name : applicationContext.getBeanDefinitionNames()) {
-            System.out.println(name);
-        }
+//        for (String name : applicationContext.getBeanDefinitionNames()) {
+//            System.out.println(name);
+//        }
     }
 
 }
